@@ -1,0 +1,53 @@
+h1,
+h3 {
+    /* display: inline; */
+    /* Inline no deja aplicar width a los bloques */
+    display: inline-block;
+    background-color: cyan;
+    width: 300px;
+    /* this will work! */
+}
+
+/* Hacer que los elementos label e input que son por default inline se muestren en lineas separadas */
+label,
+input {
+    display: block;
+}
+
+/* Columas de parrafos con inline-block */
+.columnas {
+    display: inline-block;
+    width: 160px;
+    /* Es para que el pading y el borde se incluya en el ancho y alto total */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 10px;
+}
+
+/* Vertical align top para distintos contenidos */
+.distinto_contenido {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+    /* Como tienen distinto tamaño por tener distinto contenido se aplica vertical align top y se alinea todo hacia arriba, ya que el default para inline-block es vertical-align: bottom */
+    vertical-align: top;
+}
+
+/* Modificar elementos que son por default inline */
+#defaultInline{
+    border: 1px solid gray;
+    width: 50%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+}
