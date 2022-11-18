@@ -1,0 +1,39 @@
+.container{
+    margin: 40px;
+}
+
+button{
+    margin: 10px;
+}
+
+#btn_buscar{
+    display: block;
+    width: 130px;
+    background-color: whitesmoke;
+    border: 2px solid #28a4a6;
+    color: #28a4a6;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+#btn_mas{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: #00d1b2;
+    color: white;
+    font-size: 22px;
+    border-radius: 50%;
+    border: none;
+}
+
+#btn_crear_cuenta{
+    display: block;
+    width: 160px;
+    background-color: #2b78e4;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 3px 3px black;
+}
