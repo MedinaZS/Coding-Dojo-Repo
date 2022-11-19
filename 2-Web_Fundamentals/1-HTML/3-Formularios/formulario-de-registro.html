@@ -43,18 +43,19 @@
 
         <div>
             <label>Identidad de Género:</label><br>
-            <input type="radio" value="hombre" id="hombre">
+            <!--Para los radiobutton el atributo name deben ser todos iguales para solo tener 1 opcion y se desmarquen los demas-->
+            <input type="radio" value="hombre" id="hombre" name="identidadGenero">
             <label for="hombre">Hombre</label>
-            <input type="radio" value="mujer" id="mujer">
+            <input type="radio" value="mujer" id="mujer" name="identidadGenero">
             <label for="mujer">Mujer</label>
-            <input type="radio" value="nobinario" id="nobinario">
+            <input type="radio" value="nobinario" id="nobinario" name="identidadGenero">
             <label for="nobinario">No-binario</label>
-            <input type="radio" value="sinrespuesta" id="sinrespuesta">
+            <input type="radio" value="sinrespuesta" id="sinrespuesta" name="identidadGenero">
             <label for="sinrespuesta">Prefiero no responder</label>
         </div>
 
         <div>
-            <label>Una pequeña descripción sobre mi:</label>br
+            <label>Una pequeña descripción sobre mi:</label><br>
             <textarea cols="35" rows="3"></textarea>
         </div>
 
