@@ -20,6 +20,10 @@
     align-items: center;    
 }
 
+.nav-links .active{
+    font-weight: bold;
+}
+
 a, button{
     margin-left: 20px;
 }
