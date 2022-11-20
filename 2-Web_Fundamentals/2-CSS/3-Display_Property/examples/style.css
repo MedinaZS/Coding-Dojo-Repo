@@ -1,0 +1,30 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    /* Display flex, el padre 'contiene' a las columnas pero no solo ocupa el ancho si no que tambien el alto
+    Se aplica siempre al contenedor padre */
+    display: flex;
+    /* align items para alinear al lugar que queremos y ya no ocupa todo el ancho y solo funciona con el display flex
+    evitarán que las columnas se estiren (heredando la altura del div contenedor padre*/
+    align-items: center;
+}
+
+.col {
+    /* 3 columnas iguales: 220 + 10 cada lado = 240 * 3 columnas = 720 (es lo que tiene que tener el contedenor padre como minimo) */
+
+    /* 1 columna diferente: 180 + 10 cada lado = 200 * 2 columnas = 400 + 320 de la columna del medio = 720 (es lo que tiene que tener el contedenor padre como minimo) */
+
+    width: 180px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    /* Al usar inline-block hay un espacio extra porque html interpreta el enter que se hizo entre las columnas div */
+    /* display: inline-block; */
+}
+
+.col-2{
+    width: 300px;
+    padding: 10px;
+    background-color: lightskyblue;
+    display: flex;
+}
