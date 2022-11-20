@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+}
+
+.row-pink div{
+    background-color: mistyrose;
+}
+
+.row-blue div{
+    background-color: aliceblue;
+}
+
+.row-yellow div{
+    background-color: khaki;
+}
+
+.col, .col-2, .col-3{
+    padding: 20px;
+    margin: 10px;
+}
+
+.col{
+    flex: 1;
+}
+
+.col-2{
+    flex:2;
+}
+
+.col-3{
+    flex: 3;
+}
