@@ -1,0 +1,12 @@
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    /*  *Se distorsiona las imagenes al principio porque en display flex se ocupa todo el alto del contenedor padre
+    */
+    display: flex;
+    /*Con align hace que no tome el alto del contenedor padre y lo alinea*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+
