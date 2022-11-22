@@ -30,3 +30,7 @@
 .col-3{
     flex: 3;
 }
+
+.col{
+    border:solid;
+}
